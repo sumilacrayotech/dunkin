@@ -1,0 +1,85 @@
+.error{
+    color: red;
+    font-weight: 400 !important;
+}
+/* ------------------ Wizard styles --------------------*/
+.ui-formwizard {margin-top: 0; margin-bottom: 0;position: relative; background: #f8f8f8;}
+.ui-formwizard .form-actions {
+    border-bottom: none;
+    -moz-box-shadow: 0 1px 0px rgba(229, 229, 229, 0.1);
+    -webkit-box-shadow: 0 1px 0px rgba(229, 229, 229, 0.1);
+    box-shadow: 0 1px 0px rgba(229, 229, 229, 0.1);
+    padding:7px 10px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    background: #fff;
+}
+.ui-formwizard-content {padding: 0 10px 20px 10px;}
+.wizard-steps.show {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border-bottom: 1px solid #c4c4c4;
+    margin-bottom: 20px;
+}
+.wizard-steps.hide{display: none;}
+.wizard-steps .wstep {
+    float: left;
+    position: relative;
+    color: #c9c9c9;
+    font-weight: bold;
+    font-size: 13px;
+    position: relative;
+    height: 60px;
+    width: 100%;
+    max-width: 178px;
+    min-width: 176px;
+    border-right: 1px solid #c4c4c4;
+}
+.wizard-steps .wstep.current {color: #737373;}
+.wizard-steps .wstep.done {color: #72b110;}
+.wizard-steps .wstep .donut {
+    margin-top: 10px;
+    border: 2px solid #c9c9c9;
+    border-radius: 20px;
+    height:34px;
+    width:34px;
+    margin-left: 10px;
+    position: relative;
+    margin-bottom: 5px;
+    text-align: center;
+    font: bold 25px Verdana, Arial, Helvetica, sans-serif;
+    float: left;
+    color: #c9c9c9;
+}
+.wizard-steps .wstep .donut span.icon16 {
+    font-size: 24px;
+    margin-top: -6px;
+    margin-left: 3px;
+    color: #c9c9c9;
+    display: inline-block;
+}
+.wizard-steps .wstep.current .donut span.icon16 {color: #737373;}
+.wizard-steps .wstep.done .donut span.icon16 {color: #9fc569;}
+.wizard-steps .wstep.current .donut {border-color: #737373; color: #737373;}
+.wizard-steps .wstep.done .donut {border-color: #9fc569;}
+
+.wizard-steps .wstep .txt {
+    text-align: left;
+    padding: 10px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+    display: inline-block;
+}
+.ui-formwizard-button.pull-left i {margin-left: 0;}
+.ui-formwizard-button.pull-right i {margin-right: 0;}
+
+.input-box{
+    width:70% !important;}
+.custom-in-wrap{
+    width: 100%;
+    float: left;
+}

@@ -1,0 +1,34 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-08-23 01:52:54 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 01:52:55 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 05:25:26 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:03:02 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:03:07 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:03:08 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:03:28 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:03:29 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:03:32 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:03:42 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:03:59 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:05:07 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:05:23 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:05:24 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:05:24 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:05:31 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:06:11 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:06:13 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:06:16 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:06:17 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:06:32 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:06:44 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:06:47 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:06:47 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:06:49 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:06:58 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:06:59 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:06:59 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 06:07:28 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 11:26:53 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 15:24:08 --> Memcached Library: Failed to load Memcached or Memcache Class
+ERROR - 2021-08-23 17:19:01 --> Memcached Library: Failed to load Memcached or Memcache Class
