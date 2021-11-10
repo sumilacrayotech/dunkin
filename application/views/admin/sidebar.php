@@ -66,7 +66,7 @@ $sess=$admin->ifLogin();
                 </a>
             </li>
             <?php }?>
-            <?php if (in_array('customerqrcode',$menuarr1)){?>
+            <?php if (in_array('Qr Code',$menuarr1)){?>
             <li class=" treeview <?php if ($urlval1=="index"){?> activeli <?php } ?>">
                 <a href="<?php echo base_url() ?>customerqrcode/index">
                     <img src="<?php echo base_url() ?>skin/admin/images/icon_10.png" class="orange_img">
