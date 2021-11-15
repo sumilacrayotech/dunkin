@@ -88,8 +88,8 @@ class Admin extends MY_Controller {
             $this->session->set_flashdata('message_name', '<div style="border: 1px dotted; padding: 5px; color: green; background-color: rgb(221, 221, 221);">Your profile details has been changed.</div>');
             redirect(base_url('admin/profile'));
         }*/
-        
-        function changeProfile()
+
+    function changeProfile()
     {
         $main = new Main();
         $postData = $this->input->post();
@@ -97,22 +97,25 @@ class Admin extends MY_Controller {
         $email=$this->input->post('emailid');
         //die;
         if(!empty($postData['password']) and !empty($postData['current_password'])){
+            $this->db->where('email',$email);
+            $prevpassworddt=$this->db->get('users')->row();
+            $prevpassword=$prevpassworddt->paas_text;
+            if ($prevpassword!=$postData['current_password'])
+            {
+                $this->session->set_flashdata('message_name', '<div style="border: 1px dotted; padding: 5px; color: green; background-color: rgb(221, 221, 221);">The current password not correct</div>');
+                redirect(base_url('admin/profile'));
+            }
+
             $identity = $main->ifLogin()->email;
-           $this->ion_auth->change_password($identity,$postData['current_password'],$postData['password']);
+            $this->ion_auth->change_password($identity,$postData['current_password'],$postData['password']);
             /*$password=md5($postData['password']);*/
             $data = array(
                 'paas_text' => $postData['password']
             );
-            //print_r($data);
             $this->db->where('email',$email);
             $this->db->update('users', $data);
             $this->session->set_flashdata('message_name', '<div style="border: 1px dotted; padding: 5px; color: green; background-color: rgb(221, 221, 221);">Your profile details has been changed.</div>');
             redirect(base_url('admin/profile'));
         }
-        
-        
-        
-        
-        
     }
 }

@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://192.168.43.246/dunkin-web/';
-$config['base_url'] = 'https://dunkin.demoatcrayotech.com/customersurvay/';
+$config['base_url'] = 'http://localhost/customersurvay/';
 $config['sess_use_database'] = FALSE;
 /*
 |--------------------------------------------------------------------------
